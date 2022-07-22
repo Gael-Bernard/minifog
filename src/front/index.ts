@@ -1,6 +1,6 @@
 import * as PIXI from "pixi.js"
 import { io, Socket } from "socket.io-client"
-import { ClientToServerEvents, ServerToClientEvents } from '../../shared/networkTypes'
+import { ClientToServerEvents, ServerToClientEvents } from '../shared/networkTypes'
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
