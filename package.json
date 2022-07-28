@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "run": "npm run build && tsc && node src/back/dist/app.js",
     "dev": "vite src/front",
     "build": "tsc && vite build src/front",
     "preview": "vite preview"
